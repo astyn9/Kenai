@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{margin: 0;
+padding: 0;
+list-style: none;}
+
+body{background:linear-gradient(rgba(29, 29, 29, 1), rgba(29, 29, 29, 0)), url(/imagens/image.png);;
+background-size:cover;
+background-repeat: no-repeat;
+font-family: Open Sans;}
+
+header{display: flex;
+align-items: center;
+justify-content: space-between;}
+
+header h1{margin-left: 30px;
+    background-image: linear-gradient(to left, rgba(255, 38, 122, 1), rgba(255, 166, 52, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+ul{display: flex;}
+
+li{margin: 25px;
+color:#ffff;}
+
+header ul li img{cursor: pointer;}
+
+main{display: flex;
+flex-direction: column;
+padding: 30px;}
+.açao{background-color: rgba(24, 24, 24, 1);
+color: rgba(255, 166, 52, 1);
+width: 35px;
+font-size: 14px;
+margin: 10px;}
+
+.estrelas{display: flex;
+align-items: center;
+color: #ffff;}
+
+.relogio{width: 20px;
+height: 20px;
+margin-left: 20px;
+margin-right: 20px;}
+
+.batman h1{color: #ffff;
+font-size: 56px;
+;}
+
+.batman p{width: 530px;
+color:#ffff;
+font-size: 20px;}
+
+.batman button{width: 286px;
+height: 56px;
+background-color: rgba(255, 166, 52, 1);
+color: rgba(24, 24, 24, 1);
+margin-top:  30px;
+font-size: 24px;
+border: none;
+cursor: pointer;
+border-radius: 4px;}
+
+.filmes h1{font-size: 32px;
+padding: 30px;
+color:#ffff;}
+
+
+
+.populares{display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+.logo-01, .logo-02, .logo-03, .logo-04, .logo-05{width: 220px;
+    height: 330px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.populares img:hover{opacity: 0.7;}
+
+footer{display: flex;
+justify-content: space-between;
+align-items: center;}
+
+footer h1{padding: 30px;
+color: #ffff;}
+
+button:hover{background-image: linear-gradient(to left, rgba(255, 38, 122, 1), rgba(255, 166, 52, 1));
+color: white;}
+
+footer ul li img{cursor: pointer;}
+
+
+@media only screen and (max-width: 700px){
+
+    body{background:url(/imagens/image.png)no-repeat center  fixed;
+    background-size: cover;}
+    
+.batman p{width: 300px;}
+
+footer p{width: 250px;}
+
+.filmes h1{text-align: center;}
+  }
